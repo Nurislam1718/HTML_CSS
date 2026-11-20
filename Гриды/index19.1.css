@@ -1,0 +1,32 @@
+#parent {
+    display: grid;
+    grid-template-areas:
+        "e1 e2 e3 e4"
+        "e5 e6 e7 e8"
+        "e9 e10 e11 e12";
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #696989;
+    width: 600px;
+    height: 400px;
+}
+
+#parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#elem1 { grid-area: e1; }
+#elem2 { grid-area: e2; }
+#elem3 { grid-area: e3; }
+#elem4 { grid-area: e4; }
+#elem5 { grid-area: e5; }
+#elem6 { grid-area: e6; }
+#elem7 { grid-area: e7; }
+#elem8 { grid-area: e8; }
+#elem9 { grid-area: e9; }
+#elem10 { grid-area: e10; }
+#elem11 { grid-area: e11; }
+#elem12 { grid-area: e12; }
