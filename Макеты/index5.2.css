@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+header, footer, .left-sidebar, .content, .right-sidebar {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+header, footer {
+    height: 200px;
+}
+
+.middle {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    height: 500px;
+}
+
+.content {
+    flex: 2; /* Контент занимает 2 части */
+}
+
+.left-sidebar, .right-sidebar {
+    flex: 1; /* Боковые колонки занимают по 1 части */
+}
