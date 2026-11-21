@@ -1,0 +1,66 @@
+/* Сброс базовых отступов */
+body, h1, h2, p, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    line-height: 1.5;
+}
+
+/* Мульти-обертки */
+.container {
+    max-width: 900px; /* Ограничиваем ширину контента */
+    margin: 0 auto;   /* Центрируем контейнер */
+    padding: 40px 20px; /* Внутренние отступы */
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Цвета фонов */
+.bg-green { background-color: #0e8f60; color: white; }
+.bg-white { background-color: #ffffff; color: black; }
+.bg-red { background-color: #c00000; color: white; }
+.bg-orange { background-color: #f58220; color: white; }
+
+/* Стилизация заголовков и текста */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Стилизация списка */
+ol {
+    margin-left: 20px; /* Отступ для цифр */
+}
+
+li {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Стилизация параграфов в белых блоках */
+.bg-white p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Стилизация текста в футере */
+footer p {
+    font-size: 14px;
+}
