@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+header {
+    background-color: #4a4a4a;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Эффект при наведении на обычные кнопки */
+nav a:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Активная кнопка (home) */
+nav a.active {
+    background-color: #6b6b6b;
+}
+
+/* Чтобы активная кнопка не белела при наведении, оставляем её серой */
+nav a.active:hover {
+    background-color: #6b6b6b;
+    color: white;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Ссылки внутри текста */
+main a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* При наведении на текст в абзацах - красный цвет */
+main a:hover {
+    color: red;
+}
+
+/* Отдельный стиль для зеленой ссылки из примера */
+main a.green-link {
+    color: green;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+}
