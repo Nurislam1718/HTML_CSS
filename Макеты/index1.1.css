@@ -1,0 +1,26 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+#menu a {
+    padding: 10px 20px;
+    font: 15px Arial, sans-serif;
+    text-decoration: none;
+    background-color: #0e8f60;
+    color: white;
+    border: 1px solid #0e8f60;
+    text-align: left;
+}
+
+#menu a:hover {
+    background-color: white;
+    color: #0e8f60;
+}
+
+#menu a.white {
+    background-color: white;
+    color: #0e8f60;
+}
