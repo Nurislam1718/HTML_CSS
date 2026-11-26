@@ -1,0 +1,6 @@
+.box {
+    width: 200px;
+    white-space: nowrap;
+    overflow-x: scroll; 
+    border: 1px solid red;
+}

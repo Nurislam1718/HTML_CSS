@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid red;
+}
+
+.box:hover {
+    white-space: normal; 
+    height: auto;        
+    overflow: visible;   
+}
