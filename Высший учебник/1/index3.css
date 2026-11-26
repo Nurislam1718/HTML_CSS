@@ -1,0 +1,5 @@
+p {
+    text-align: justify;
+    text-align-last: right;
+    width: 400px; /* Ограничил ширину, чтобы текст точно перенесся на несколько строк */
+}
