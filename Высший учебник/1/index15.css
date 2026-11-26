@@ -1,0 +1,8 @@
+.no-click {
+    pointer-events: none; 
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
