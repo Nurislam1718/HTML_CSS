@@ -1,0 +1,7 @@
+.box {
+    width: 300px;
+    hyphens: auto;          
+    text-align: justify;    
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
