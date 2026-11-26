@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.box {
+    width: 150px; 
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.overflow-wrap {
+    overflow-wrap: break-word;
+}
