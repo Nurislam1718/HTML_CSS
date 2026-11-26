@@ -1,0 +1,12 @@
+table {
+    border-collapse: separate; 
+    border-spacing: 10px;      
+    border: 1px solid black;   
+}
+
+td {
+    background-color: #009e49;
+    color: white;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
