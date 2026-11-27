@@ -1,0 +1,19 @@
+table {
+	width: 300px;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+td {
+	width: 100px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.t-auto {
+	table-layout: auto;
+}
+
+.t-fixed {
+	table-layout: fixed;
+}
