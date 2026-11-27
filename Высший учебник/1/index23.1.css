@@ -1,0 +1,17 @@
+p {
+	margin-top: 30px; 
+}
+
+span {
+	position: relative;
+}
+
+span::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	bottom: 100%;
+	right: 0;
+}

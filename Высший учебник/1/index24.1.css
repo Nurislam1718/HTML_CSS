@@ -1,0 +1,8 @@
+body {
+	counter-reset: num;
+}
+
+h2::before {
+	counter-increment: num;
+	content: "№" counter(num) " ";
+}
