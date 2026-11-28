@@ -1,0 +1,8 @@
+input {
+	width: 180px;
+	height: 25px;
+}
+
+input::placeholder {
+	color: green;
+}
